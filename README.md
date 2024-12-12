@@ -10,7 +10,7 @@ Abaixo está o código HTML, CSS e JavaScript utilizado para exibir os diferente
 
 ```html
 
-
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
