@@ -7,9 +7,8 @@ Este projeto ajuda você a identificar em que estágio você se encontra na sua 
 Abaixo está o código HTML, CSS e JavaScript utilizado para exibir os diferentes estágios e explicações.
 
 ## Código HTML
- 
-<!DOCTYPE html>
 
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -28,7 +27,6 @@ Abaixo está o código HTML, CSS e JavaScript utilizado para exibir os diferente
       margin: 0;
       flex-direction: column;
     }
-
     .container {
       text-align: center;
       background-color: white;
@@ -37,21 +35,17 @@ Abaixo está o código HTML, CSS e JavaScript utilizado para exibir os diferente
       border-radius: 8px;
       max-width: 400px;
     }
-
     h1 {
       color: #333;
     }
-
     h2 {
       color: #555;
       margin-bottom: 10px;
     }
-
     p {
       color: #666;
       margin: 5px 0;
     }
-
     select, button {
       padding: 10px;
       font-size: 16px;
@@ -61,24 +55,20 @@ Abaixo está o código HTML, CSS e JavaScript utilizado para exibir os diferente
       border: 1px solid #ccc;
       border-radius: 4px;
     }
-
     button {
       background-color: #007BFF;
       color: white;
       border: none;
     }
-
     button:hover {
       background-color: #0056b3;
     }
-
     #resultado {
       margin-top: 20px;
       font-size: 18px;
       font-weight: bold;
       color: #333;
     }
-
     .explicacao {
       margin-top: 10px;
       font-size: 16px;
@@ -94,7 +84,6 @@ Abaixo está o código HTML, CSS e JavaScript utilizado para exibir os diferente
     <p>Após o envio, você receberá o resultado importante o estágio em que está e dicas para avançar ao próximo nível.</p>
     <p>Vamos começar uma jornada rumo ao seu estado de fluxo ideal!</p>
 
-    <!-- Formulário para escolher o estágio -->
     <select id="estagio">
       <option value="" selected>Selecione</option>
       <option value="a">Desmotivado e sem energia, como se estivesse em um estado de sonolência.</option>
@@ -108,13 +97,11 @@ Abaixo está o código HTML, CSS e JavaScript utilizado para exibir os diferente
 
     <button onclick="mostrarEstagio()">Mostrar Estágio</button>
 
-    <!-- Resultado será mostrado aqui -->
     <div id="resultado"></div>
     <div id="explicacao" class="explicacao"></div>
   </div>
 
   <script>
-    // Mapeamento de respostas e suas explicações
     const estagios = {
       '': { resultado: "Por favor, selecione um estágio válido!", explicacao: "" },
       'a': { resultado: "Estágio 1: Sonolência", explicacao: "A fase que sua mente está fechada(a), programada para ter os mesmos hábitos e atitudes, com medo de mudanças e dificuldades em dar o primeiro passo." },
@@ -127,12 +114,10 @@ Abaixo está o código HTML, CSS e JavaScript utilizado para exibir os diferente
     };
 
     function mostrarEstagio() {
-      // Pega o valor selecionado
       const estagio = document.getElementById('estagio').value;
       const resultadoDiv = document.getElementById('resultado');
       const explicacaoDiv = document.getElementById('explicacao');
 
-      // Define o texto do resultado e explicação
       if (estagios[estagio]) {
         resultadoDiv.innerHTML = `<p>${estagios[estagio].resultado}</p>`;
         explicacaoDiv.innerHTML = `<p>${estagios[estagio].explicacao}</p>`;
