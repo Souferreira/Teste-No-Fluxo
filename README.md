@@ -1,17 +1,20 @@
-# Fluxo-estagio
-Descubra o Seu Estágio no Fluxo Aplicação interativa que ajuda a identificar seu estágio no "fase que você  se encontra na sua vida". Com uma interface simples, permite selecionar níveis de engajamento e obter feedback claro. Desenvolvido em HTML, CSS e JavaScript, ideal para quem busca insights sobre produtividade e desempenho.
+# Fluxo Estágio
 
-# Para que serve Fluxo de Estágio
+**Descubra o Seu Estágio no Fluxo**
 
-Este projeto ajuda você a descobrir em que estágio você se encontra e como progredir para um estado de alto desempenho, com dicas para cada fase. Abaixo está o código HTML utilizado para exibir os diferentes estágios e explicações:
+Este projeto ajuda você a identificar em que estágio você se encontra na sua jornada e como progredir para um estado de alto desempenho. Com uma interface simples, você poderá selecionar níveis de engajamento e obter feedback claro.
 
+Abaixo está o código HTML, CSS e JavaScript utilizado para exibir os diferentes estágios e explicações.
 
+## Código HTML
+
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
-   <head>
-     <meta charset="UTF-8">
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Descubra seu Estágio no Fluxo</title>
+  <title>Descubra seu Estágio no Fluxo</title>
   <style>
     /* Estilo Geral */
     body {
@@ -25,7 +28,6 @@ Este projeto ajuda você a descobrir em que estágio você se encontra e como pr
       flex-direction: column;
     }
 
-    /* Container */
     .container {
       text-align: center;
       background-color: white;
@@ -88,8 +90,8 @@ Este projeto ajuda você a descobrir em que estágio você se encontra e como pr
     <h1>Descubra o seu Estágio No Fluxo</h1>
     <h2>Instruções:</h2>
     <p>- Seja honesto ao responder para obter um resultado mais preciso.</p>
-    <p>Após o envio, você receberá o resultado indicando o estágio em que está e dicas para avançar ao próximo nível.</p>
-    <p>Vamos começar a jornada rumo ao seu estado de fluxo ideal!</p>
+    <p>Após o envio, você receberá o resultado importante o estágio em que está e dicas para avançar ao próximo nível.</p>
+    <p>Vamos começar uma jornada rumo ao seu estado de fluxo ideal!</p>
 
     <!-- Formulário para escolher o estágio -->
     <select id="estagio">
@@ -114,7 +116,7 @@ Este projeto ajuda você a descobrir em que estágio você se encontra e como pr
     // Mapeamento de respostas e suas explicações
     const estagios = {
       '': { resultado: "Por favor, selecione um estágio válido!", explicacao: "" },
-      'a': { resultado: "Estágio 1: Sonolência", explicacao: "A fase que sua mente está fechado(a), programado para ter os mesmos hábitos e atitudes, com medo de mudanças e dificuldades em dar o primeiro passo." },
+      'a': { resultado: "Estágio 1: Sonolência", explicacao: "A fase que sua mente está fechada(a), programada para ter os mesmos hábitos e atitudes, com medo de mudanças e dificuldades em dar o primeiro passo." },
       'b': { resultado: "Estágio 2: Despertar", explicacao: "Você começa a se sentir insatisfeito com algumas áreas da sua vida e busca tomar atitude, mas ainda não sabe por onde começar." },
       'c': { resultado: "Estágio 3: Sobrecarga de Informação", explicacao: "Você está consumindo muitas informações e se sente perdido sobre como colocar em prática o que aprendeu." },
       'd': { resultado: "Estágio 4: Execução sem Estratégia", explicacao: "Você começa a executar, mas sem um plano estratégico, o que te faz parar no meio do caminho ou se frustrar." },
@@ -141,3 +143,4 @@ Este projeto ajuda você a descobrir em que estágio você se encontra e como pr
   </script>
 </body>
 </html>
+
