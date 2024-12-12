@@ -1,11 +1,5 @@
 # Fluxo Estágio
 
-**Descubra o Seu Estágio no Fluxo**
-
-Este projeto ajuda você a identificar em que estágio você se encontra na sua jornada e como progredir para um estado de alto desempenho. Com uma interface simples, você poderá selecionar níveis de engajamento e obter feedback claro.
-
-Abaixo está o código HTML, CSS e JavaScript utilizado para exibir os diferentes estágios e explicações.
-
 
 ```html
 
