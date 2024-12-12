@@ -8,7 +8,7 @@ Abaixo está o código HTML, CSS e JavaScript utilizado para exibir os diferente
 
 ## Código HTML
 
-```html
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
