@@ -6,7 +6,8 @@ Descubra o Seu Estágio no Fluxo Aplicação interativa que ajuda a identificar 
 Este projeto ajuda você a descobrir em que estágio você se encontra e como progredir para um estado de alto desempenho, com dicas para cada fase. Abaixo está o código HTML utilizado para exibir os diferentes estágios e explicações:
 
 ```html
-```<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="pt-BR">
    <head>
      <meta charset="UTF-8">
