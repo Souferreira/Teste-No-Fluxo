@@ -7,11 +7,9 @@ Este projeto ajuda você a identificar em que estágio você se encontra na sua 
 Abaixo está o código HTML, CSS e JavaScript utilizado para exibir os diferentes estágios e explicações.
 
 ## Código HTML
+```html
 
 
-
-
-'``html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
