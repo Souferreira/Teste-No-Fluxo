@@ -11,7 +11,6 @@ Este projeto ajuda você a descobrir em que estágio você se encontra e como pr
    <head>
      <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
    <title>Descubra seu Estágio no Fluxo</title>
   <style>
     /* Estilo Geral */
