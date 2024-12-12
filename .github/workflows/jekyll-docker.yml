@@ -1,0 +1,60 @@
+name: CI/CD Workflow
+
+# Disparadores para o workflow
+on:
+  push:
+    branches:
+      - "main" # Executa em pushes para a branch main
+  pull_request:
+    branches:
+      - "main" # Executa em pull requests para a branch main
+  workflow_dispatch: # Permite execução manual
+
+# Definição de jobs
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest # Configuração do ambiente
+
+    steps:
+      - name: Check out code # Faz o checkout do código
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js # Configura Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16' # Define a versão do Node.js
+
+      - name: Install dependencies # Instala dependências do projeto
+        run: npm install
+
+      - name: Run tests # Executa os testes
+        run: npm test
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Run linter # Executa verificação de estilo
+        run: npm run lint
+
+  deploy:
+    needs: [build-and-test, lint] # Garante que os testes e lint sejam aprovados antes de deploy
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' # Apenas na branch main
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Deploy application
+        run: |
+          echo "Simulando um deploy"
+          # Adicione comandos reais de deploy aqui
