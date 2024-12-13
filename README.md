@@ -51,6 +51,7 @@ Navegue até o diretório do projeto:
 cd DescubraSeuEstagioNoFluxo
 Abra o arquivo index.html no seu navegador de preferência.
 
+---
 
 ## 📖 Estágios Explicados
 
@@ -74,10 +75,10 @@ Você começa a executar as tarefas com fluidez e naturalidade, alcançando melh
 
 7️⃣ Fluxo Constante
 O ápice da jornada: um estado de alto desempenho, onde o foco é inabalável e tudo parece fluir com naturalidade.
-
+---
 📝 Contribuindo
 Contribuições são bem-vindas! Sinta-se à vontade para abrir Issues ou enviar um Pull Request com melhorias, correções ou novas ideias.
-
+---
 Faça um fork do repositório.
 Crie um branch para sua funcionalidade/correção:
 bash
@@ -87,14 +88,14 @@ Envie suas alterações:
 bash
 Copiar código
 git push origin minha-contribuicao
-
+---
 ## 🧑‍💻 Autor
 Desenvolvido por Emanuel.
 Sinta-se à vontade para entrar em contato para dúvidas, sugestões ou parcerias!
-
+---
 ## 📜 Licença
 Este projeto está licenciado sob a MIT License.
-
+---
 ## 🌟 Agradecimentos
 A todos que incentivam o aprendizado e a busca por um estado de fluxo ideal. 🚀
 
