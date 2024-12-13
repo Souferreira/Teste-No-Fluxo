@@ -53,7 +53,7 @@ cd DescubraSeuEstagioNoFluxo
 Abra o arquivo index.html no seu navegador de preferência.
 
 
-📖 Estágios Explicados
+## 📖 Estágios Explicados
 
 1️⃣ Sonolência
 Você se sente desmotivado e sem energia, como se estivesse em um estado de sonolência. Há dificuldade em dar o primeiro passo para mudanças.
@@ -79,7 +79,7 @@ O ápice da jornada: um estado de alto desempenho, onde o foco é inabalável e 
 📝 Contribuindo
 Contribuições são bem-vindas! Sinta-se à vontade para abrir Issues ou enviar um Pull Request com melhorias, correções ou novas ideias.
 
-Faça um fork do repositório.
+## Faça um fork do repositório.
 Crie um branch para sua funcionalidade/correção:
 bash
 Copiar código
@@ -89,14 +89,14 @@ bash
 Copiar código
 git push origin minha-contribuicao
 
-🧑‍💻 Autor
+## 🧑‍💻 Autor
 Desenvolvido por Emanuel.
 Sinta-se à vontade para entrar em contato para dúvidas, sugestões ou parcerias!
 
-📜 Licença
+## 📜 Licença
 Este projeto está licenciado sob a MIT License.
 
-🌟 Agradecimentos
+## 🌟 Agradecimentos
 A todos que incentivam o aprendizado e a busca por um estado de fluxo ideal. 🚀
 
 
