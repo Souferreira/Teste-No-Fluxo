@@ -52,10 +52,6 @@ Abaixo está a estrutura básica do projeto:
    Indexatualizado.html
 
 
-
-
-
-
 ## 📖 Estágios Explicados
 
 1️⃣ Sonolência
