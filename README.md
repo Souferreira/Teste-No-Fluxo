@@ -79,7 +79,7 @@ O ápice da jornada: um estado de alto desempenho, onde o foco é inabalável e 
 📝 Contribuindo
 Contribuições são bem-vindas! Sinta-se à vontade para abrir Issues ou enviar um Pull Request com melhorias, correções ou novas ideias.
 
-## Faça um fork do repositório.
+Faça um fork do repositório.
 Crie um branch para sua funcionalidade/correção:
 bash
 Copiar código
