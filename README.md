@@ -38,9 +38,6 @@ Abaixo está a estrutura básica do projeto:
 
 📂 DescubraSeuEstagioNoFluxo ├── index.html # Arquivo principal com o conteúdo e a estrutura HTML ├── style.css # Estilos gerais aplicados ao projeto └── script.js # Lógica interativa do projeto
 
-yaml
-Copiar código
-
 ---
 
 ## 🚀 Como Executar o Projeto
