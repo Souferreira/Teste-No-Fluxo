@@ -47,7 +47,9 @@ Abaixo está a estrutura básica do projeto:
 2. Navegue até o diretório do projeto:
      ```bash
    cd DescubraSeuEstagioNoFluxo
-4. Abra o arquivo <h6>indexatualizado.html</h6> no seu navegador de preferência.
+4. Abra o arquivo no seu navegador de preferência.
+      ```bash
+   Indexatualizado.html
 
 
 
