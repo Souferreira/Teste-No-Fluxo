@@ -1,7 +1,6 @@
 Aqui está um exemplo de como você pode criar uma explicação detalhada para o seu projeto no GitHub, usando uma estrutura de README bem formatada:
 
-markdown
-Copiar código
+
 # Descubra seu Estágio no Fluxo
 
 Este é um projeto interativo em HTML, CSS e JavaScript que permite ao usuário identificar o estágio em que está em sua jornada rumo ao estado de fluxo ideal. Ao selecionar um estágio, você receberá uma explicação sobre sua situação atual e dicas para avançar para o próximo nível.
@@ -48,7 +47,7 @@ Abaixo está a estrutura básica do projeto:
 2. Navegue até o diretório do projeto:
      ```bash
    cd DescubraSeuEstagioNoFluxo
-4. Abra o arquivo index.html no seu navegador de preferência.
+4. Abra o arquivo <h6>indexatualizado.html</h6> no seu navegador de preferência.
 
 
 
