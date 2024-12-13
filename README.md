@@ -46,8 +46,9 @@ Abaixo está a estrutura básica do projeto:
    ```bash
    git clone (https://github.com/Souferreira/Teste-No-Fluxo.git)
 2. Navegue até o diretório do projeto:
+     ```bash
    cd DescubraSeuEstagioNoFluxo
-3. Abra o arquivo index.html no seu navegador de preferência.
+4. Abra o arquivo index.html no seu navegador de preferência.
 
 
 
