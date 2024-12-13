@@ -52,11 +52,9 @@ Copiar código
 cd DescubraSeuEstagioNoFluxo
 Abra o arquivo index.html no seu navegador de preferência.
 
-🖼️ Demonstração
-Imagem ou GIF mostrando o projeto em ação.
-(Adicione um print ou uma animação do funcionamento do projeto.)
 
 📖 Estágios Explicados
+
 1️⃣ Sonolência
 Você se sente desmotivado e sem energia, como se estivesse em um estado de sonolência. Há dificuldade em dar o primeiro passo para mudanças.
 
