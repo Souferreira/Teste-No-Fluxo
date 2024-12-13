@@ -48,7 +48,8 @@ Abaixo está a estrutura básica do projeto:
 Navegue até o diretório do projeto:
 
 ```bash
-Copiar código
+2. Copiar código
+```bash
 cd DescubraSeuEstagioNoFluxo
 Abra o arquivo index.html no seu navegador de preferência.
 
