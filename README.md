@@ -55,7 +55,7 @@ DescubraSeuEstagioNoFluxo
 3. **Abra o arquivo HTML no navegador de sua preferência:**
 
    ```bash
-   indexatualizado.html
+   index.html
    ```
 
 ---
@@ -63,79 +63,32 @@ DescubraSeuEstagioNoFluxo
 ## 📖 Estágios Explicados
 
 1. **Sonolência**
-
    - Você se sente desmotivado e sem energia, como se estivesse em um estado de sonolência. Há dificuldade em dar o primeiro passo para mudanças.
 
 2. **Despertar**
-
    - Uma insatisfação inicial surge, acompanhada de um desejo de mudança, mas ainda sem saber por onde começar.
 
 3. **Sobrecarga de Informação**
-
    - Muitas informações foram absorvidas, mas a quantidade parece esmagadora, gerando confusão sobre como agir.
 
 4. **Execução sem Estratégia**
-
    - Há ação, mas sem planejamento, levando a frustrações ou pausas frequentes no processo.
 
 5. **Organização e Planejamento**
-
    - O foco passa a ser organizar e planejar de forma eficiente, buscando melhorar o uso do tempo e dos recursos.
 
 6. **Execução Fluida**
-
    - Você começa a executar as tarefas com fluidez e naturalidade, alcançando melhorias constantes.
 
 7. **Fluxo Constante**
-
    - O ápice da jornada: um estado de alto desempenho, onde o foco é inabalável e tudo parece fluir com naturalidade.
 
 ---
 
 ## 📝 Contribuindo
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir **Issues** ou enviar um **Pull Request** com melhorias, correções ou novas ideias.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir **Issues** ou enviar um **Pull Request** com melhorias, correções ou novas funcionalidades.
 
-1. **Faça um fork do repositório:**
-
-   ```bash
-   git fork https://github.com/Souferreira/Teste-No-Fluxo.git
-   ```
-
-2. **Crie um branch para sua funcionalidade/correção:**
-
-   ```bash
-   git checkout -b minha-contribuicao
-   ```
-
-3. **Envie suas alterações:**
-
-   ```bash
-   git push origin minha-contribuicao
-   ```
-
-4. **Abra um Pull Request** no repositório principal.
-
----
-
-## 🧑‍💻 Autor
-
-Desenvolvido por **Emanuel**. Entre em contato para dúvidas, sugestões ou parcerias!
-
----
-
-## 📜 Licença
-
-Este projeto está licenciado sob a **MIT License**.
-
----
-
-## 🌟 Agradecimentos
-
-A todos que incentivam o aprendizado e a busca por um estado de fluxo ideal. 🚀
-
-
-  ```
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
