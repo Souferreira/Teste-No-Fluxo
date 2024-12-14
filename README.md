@@ -182,4 +182,5 @@ Este é um projeto interativo em **HTML**, **CSS** e **JavaScript** que permite 
  </script>
 </body>
 </html>
+
 ```
