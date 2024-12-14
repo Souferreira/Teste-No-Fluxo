@@ -315,11 +315,4 @@ A todos que incentivam o aprendizado e a busca por um estado de fluxo ideal. ðŸš
 </body>
 </html>
 
-
-
-
-
-
-
-
-
+  ```
