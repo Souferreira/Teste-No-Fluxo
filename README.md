@@ -5,7 +5,6 @@ Este é um projeto interativo em **HTML**, **CSS** e **JavaScript** que permite 
 
 
 ```
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -184,5 +183,4 @@ Este é um projeto interativo em **HTML**, **CSS** e **JavaScript** que permite 
  </script>
 </body>
 </html>
-
-  ```
+```
