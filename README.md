@@ -89,6 +89,8 @@ DescubraSeuEstagioNoFluxo
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir **Issues** ou enviar um **Pull Request** com melhorias, correções ou novas funcionalidades.
 
+```
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
