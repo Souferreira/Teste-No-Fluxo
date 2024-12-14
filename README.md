@@ -136,7 +136,8 @@ A todos que incentivam o aprendizado e a busca por um estado de fluxo ideal. ðŸš
 
 
    ```
-
+----
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
  <meta charset="UTF-8">
