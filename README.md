@@ -150,7 +150,6 @@ A todos que incentivam o aprendizado e a busca por um estado de fluxo ideal. ðŸš
      justify-content: center;
      align-items: center;
      height: 100vh;
-     background: linear-gradient(90deg, #8e44ad, #9b59b6, #af7ac5);
      margin: 0;
      flex-direction: column;
    }
