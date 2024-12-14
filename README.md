@@ -31,7 +31,7 @@ O projeto utiliza HTML, CSS e JavaScript puro, sendo ideal para iniciantes explo
 
 ```plaintext
 DescubraSeuEstagioNoFluxo
-├── index.html   # Arquivo principal com o conteúdo e a estrutura HTML
+├── indexatualizado.html   # Arquivo principal com o conteúdo e a estrutura HTML
 ├── style.css    # Estilos gerais aplicados ao projeto
 └── script.js    # Lógica interativa do projeto
 ```
