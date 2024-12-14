@@ -55,7 +55,7 @@ DescubraSeuEstagioNoFluxo
 3. **Abra o arquivo HTML no navegador de sua preferência:**
 
    ```bash
- indexatualizado.html
+   indexatualizado.html
    ```
 
 ---
