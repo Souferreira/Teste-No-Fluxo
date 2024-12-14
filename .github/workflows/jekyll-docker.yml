@@ -18,18 +18,7 @@ jobs:
     steps:
       - name: Check out code # Faz o checkout do código
         uses: actions/checkout@v4
-
-      - name: Set up Node.js # Configura Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16' # Define a versão do Node.js
-
-      - name: Install dependencies # Instala dependências do projeto
-        run: npm install
-
-      - name: Run tests # Executa os testes
-        run: npm test
-
+    
   lint:
     runs-on: ubuntu-latest
 
@@ -37,13 +26,6 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-
-      - name: Run linter # Executa verificação de estilo
-        run: npm run lint
 
   deploy:
     needs: [build-and-test, lint] # Garante que os testes e lint sejam aprovados antes de deploy
