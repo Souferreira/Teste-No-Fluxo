@@ -3,6 +3,15 @@
 
 Este é um projeto interativo em **HTML**, **CSS** e **JavaScript** que permite ao usuário identificar o estágio em que está em sua jornada rumo ao estado de fluxo ideal. Ao selecionar um estágio, você receberá uma explicação sobre sua situação atual e dicas para avançar para o próximo nível.
 
+## 📂 Estrutura de Arquivos
+
+```plaintext
+DescubraSeuEstagioNoFluxo
+├── index.html   # Arquivo principal com o conteúdo e a estrutura HTML
+├── style.css    # Estilos gerais aplicados ao projeto
+└── script.js    # Lógica interativa do projeto
+```
+
 ```
 <!DOCTYPE html>
 <html lang="pt-BR">
